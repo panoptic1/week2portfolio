@@ -5,3 +5,19 @@ body {
 ul {
   list-style: none;
 }
+
+header {
+  background: darkblue;
+}
+
+header h1,
+ul,
+li {
+  background: greenyellow;
+  display: inline;
+  color: darkblue;
+}
+
+header ul li {
+  text-decoration: underline;
+}
