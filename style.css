@@ -1,25 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: #333;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-header {
-  background: darkblue;
+a {
+  color: #333;
+  text-decoration: none;
 }
 
-header h1,
-ul,
-li {
-  background: greenyellow;
-  display: inline;
-  color: darkblue;
+h1,
+h2 {
+  font-weight: 800;
+  line-height: 1.2;
 }
 
-header ul li {
-  text-decoration: underline;
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
 }
