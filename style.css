@@ -25,9 +25,37 @@ h2 {
 }
 
 /* navbar */
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
+nav {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+nav a {
+  color: #fff;
+}
+
+#logo {
+  float: left;
+  padding: 20px 20px 10px 10px;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background: #f4f4f4;
+  color: darkblue;
 }
